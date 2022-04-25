@@ -1,0 +1,54 @@
+<!Doctype html>
+<html>
+<style>
+
+body {
+    max-width: max-content;
+    margin: auto;
+}
+
+.btn-group {
+    vertical-align: middle;
+}
+
+.btn-group button {
+  background-color: #808080; /* Grey background */
+  border: 1px solid black; /* Black border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 80%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+  margin: 5px auto;
+}
+
+.btn-group button:not(:last-child) {
+  margin-bottom: none; /* Prevent double margin */
+}
+
+/* Add a background color on hover */
+#green-btn:hover {
+  background-color: green;
+}
+
+#blue-btn:hover {
+  background-color: blue;
+}
+
+#red-btn:hover {
+  background-color: red;
+}
+
+</style>
+<body>
+
+<h1>LED Selector</h1>
+
+<div class="btn-group">
+  <button id="green-btn">Green</button>
+  <button id="blue-btn">Blue</button>
+  <button id="red-btn">Red</button>
+</div>
+
+</body>
+</html>
