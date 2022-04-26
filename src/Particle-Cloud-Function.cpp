@@ -6,9 +6,9 @@
 #line 1 "c:/Users/brent/OneDrive/Documents/_UNIVERSITY/_MASTEROFAI/2022Tri1/SIT730-EmbeddedSystemDevelopment/Tasks/4/SIT730-Task4-2HD-Particle-Cloud-Function/src/Particle-Cloud-Function.ino"
 /*
  * Project Particle-Cloud-Function
- * Description:
- * Author:
- * Date:
+ * Description: Project to control 3 LED lights via cloud function
+ * Author: Brenton Adey @BrentonAD
+ * Date: 2022-04-25
  */
 void setup();
 void loop();

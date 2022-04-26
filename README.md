@@ -1,8 +1,23 @@
 # Particle-Cloud-Function
 
-A Particle project named Particle-Cloud-Function
+Project to control 3 LED lights via cloud function
 
-## Welcome to your project!
+## Web
+
+A single html page has been included to control the Particle cloud function.
+
+#### ```/web``` folder:
+This folder contains all files needed to run the web page including:
+- **index.html:** A web page consisting of 3 buttons
+- **style.css:** Simple stylings for buttons
+- **app.js:** A JavaScript Application defining a callback function to make an Authorized POST request to the Particle function
+- **secrets.js** A single line JavaScript file defining auth_token for the Particle function. For example:
+    ```JavaScript
+    auth_token="Bearer <YOUR TOKEN_HERE>"
+    ```
+    *Please note this file is included in the .gitignore for security concerns*
+
+## Particle Project
 
 Every new Particle project is composed of 3 important elements that you'll see have been created in your project directory for Particle-Cloud-Function.
 

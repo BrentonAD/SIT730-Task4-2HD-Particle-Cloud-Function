@@ -1,5 +1,6 @@
 target/*
 lib/*
+secrets.js
 
 # Object files
 *.o
